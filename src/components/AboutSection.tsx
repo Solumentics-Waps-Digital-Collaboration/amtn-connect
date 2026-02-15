@@ -53,7 +53,7 @@ const AboutSection = () => {
               <img
                 src={directorPortrait}
                 alt={t("Direction AMTN SARL", "AMTN SARL Management")}
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[700px] object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-foreground/90 to-transparent">
                 <p className="text-primary-foreground font-heading font-bold text-lg">

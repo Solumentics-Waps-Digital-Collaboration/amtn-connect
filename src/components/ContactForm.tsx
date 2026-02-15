@@ -31,13 +31,41 @@ const ContactForm = () => {
     reset();
   };
 
-  const contactInfo = [
-    { icon: Phone, label: t("Téléphone", "Phone"), value: "+237 682 529 834", href: "tel:+237682529834" },
-    { icon: Mail, label: "Email", value: "contact@amtn-sarl.com", href: "mailto:contact@amtn-sarl.com" },
-    { icon: MapPin, label: t("Adresse", "Address"), value: "Mendong/Entrée Simbock, Yaoundé, Cameroun" },
-    { icon: Clock, label: t("Horaires", "Hours"), value: t("Lun – Ven : 08h00 – 17h00", "Mon – Fri: 8:00 AM – 5:00 PM") },
-    { icon: Globe, label: t("Zone d'intervention", "Area"), value: t("Cameroun & Afrique Centrale", "Cameroon & Central Africa") },
-    { icon: FileText, label: "NIU", value: "M102417149671L" },
+const contactInfo = [
+    { 
+      icon: Phone, 
+      label: t("Téléphone", "Phone"), 
+      value: "+237 674 194 894", 
+      href: "tel:+237674194894" 
+    },
+    { 
+      icon: Phone, 
+      label: t("Téléphone", "Phone"), 
+      value: "+237 651 501 972", 
+      href: "tel:+237651501972" 
+    },
+    { 
+      icon: Globe,
+      label: "WhatsApp", 
+      value: "+237 675 456 766", 
+      href: "https://wa.me/237675456766" 
+    },
+    { 
+      icon: Mail, 
+      label: "Email", 
+      value: "assistancemtn.direction@assistancemtn.com", 
+      href: "mailto:assistancemtn.direction@assistancemtn.com" 
+    },
+    { 
+      icon: MapPin, 
+      label: t("Adresse", "Address"), 
+      value: "Mendong/Entrée Simbock, Yaoundé, Cameroun" 
+    },
+    { 
+      icon: Clock, 
+      label: t("Horaires", "Hours"), 
+      value: t("Lun – Ven : 08h00 – 17h00", "Mon – Fri: 8:00 AM – 5:00 PM") 
+    },
   ];
 
   const inputClass = "w-full px-4 py-3.5 rounded-xl border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all";

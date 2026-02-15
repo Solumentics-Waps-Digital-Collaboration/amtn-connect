@@ -3,31 +3,31 @@ import { useLang } from "@/contexts/LanguageContext";
 
 const images = [
   {
-    src: "/image-1.jpg",
-    alt_fr: "Équipe sur le terrain",
-    alt_en: "Team on the field",
-    title_fr: "Engagement Terrain",
-    title_en: "Field Engagement",
-    desc_fr: "Nos équipes mobilisées pour assurer la visibilité et l'efficacité des opérations de proximité.",
-    desc_en: "Our teams mobilized to ensure the visibility and efficiency of local operations.",
+    src: "/image-2.jpg", // The team interacting in the market
+    alt_fr: "Équipe AMTN en déploiement terrain",
+    alt_en: "AMTN team on field deployment",
+    title_fr: "Déploiement Opérationnel",
+    title_en: "Operational Deployment",
+    desc_fr: "Présence active sur le terrain pour coordonner les projets et assurer une visibilité maximale de vos opérations.",
+    desc_en: "Active field presence to coordinate projects and ensure maximum visibility for your operations.",
   },
   {
-    src: "/image-2.jpg",
-    alt_fr: "Expertise technique",
-    alt_en: "Technical expertise",
-    title_fr: "Support Technique",
-    title_en: "Technical Support",
-    desc_fr: "Gestion et maintenance d'équipements spécialisés pour garantir la continuité de vos projets.",
-    desc_en: "Management and maintenance of specialized equipment to ensure the continuity of your projects.",
+    src: "/image-1.jpg", // The technician with the monitor
+    alt_fr: "Expertise technique et maintenance",
+    alt_en: "Technical expertise and maintenance",
+    title_fr: "Suivi & Maintenance",
+    title_en: "Monitoring & Maintenance",
+    desc_fr: "Utilisation d'équipements de pointe pour le suivi technique et la maintenance préventive de vos infrastructures.",
+    desc_en: "Use of advanced equipment for technical monitoring and preventive maintenance of your infrastructure.",
   },
   {
-    src: "/image-3.jpg",
-    alt_fr: "Coordination de bureau",
-    alt_en: "Office coordination",
-    title_fr: "Pilotage Administratif",
-    title_en: "Administrative Steering",
-    desc_fr: "Une coordination rigoureuse en bureau pour le suivi des dossiers et la conformité fiscale.",
-    desc_en: "Rigorous office coordination for file tracking and tax compliance.",
+    src: "/image-3.jpg", // The woman at the office desk
+    alt_fr: "Coordination et gestion de bureau",
+    alt_en: "Coordination and office management",
+    title_fr: "Gestion Administrative",
+    title_en: "Administrative Management",
+    desc_fr: "Un pilotage rigoureux en bureau pour garantir la conformité des dossiers et un suivi administratif d'excellence.",
+    desc_en: "Rigorous office steering to guarantee file compliance and excellent administrative follow-up.",
   },
 ];
 

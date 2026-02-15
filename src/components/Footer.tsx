@@ -1,5 +1,5 @@
 import { useLang } from "@/contexts/LanguageContext";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircleHeart } from "lucide-react";
 
 const Footer = () => {
   const { t } = useLang();
@@ -81,14 +81,32 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
                 <Phone size={14} className="text-secondary shrink-0" />
-                <a href="tel:+237682529834" className="text-sm text-background/60 hover:text-secondary transition-colors">
-                  +237 682 529 834
+                <a href="tel:+237674194894" className="text-sm text-background/60 hover:text-secondary transition-colors">
+                  +237 674 194 894
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Phone size={14} className="text-secondary shrink-0" />
+                <a href="tel:+237651501972" className="text-sm text-background/60 hover:text-secondary transition-colors">
+                  +237 651 501 972
+                </a>
+              </li>
+              {/* Updated WhatsApp Link */}
+              <li className="flex items-center gap-3">
+                <MessageCircleHeart size={14} className="text-secondary shrink-0" />
+                <a 
+                  href="https://wa.me/237675456766" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-sm text-background/60 hover:text-secondary transition-colors"
+                >
+                  +237 675 456 766
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={14} className="text-secondary shrink-0" />
-                <a href="mailto:contact@amtn-sarl.com" className="text-sm text-background/60 hover:text-secondary transition-colors">
-                  contact@amtn-sarl.com
+                <a href="mailto:assistancemtn.direction@assistancemtn.com" className="text-sm text-background/60 hover:text-secondary transition-colors">
+                  assistancemtn.direction@assistancemtn.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
